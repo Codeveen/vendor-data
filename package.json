@@ -1,0 +1,28 @@
+{
+  "name": "vendor-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node \"build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codeveen/vendor-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codeveen/vendor-data/issues"
+  },
+  "homepage": "https://github.com/Codeveen/vendor-data#readme",
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.481.0",
+    "aws-sdk": "^2.1528.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
